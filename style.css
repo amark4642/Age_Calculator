@@ -1,0 +1,67 @@
+body{
+    background: rgb(6,66,176);
+    background: radial-gradient(circle, rgb(1, 46, 124) 17%, rgb(1, 33, 109) 66%);
+    background-repeat:round;
+    padding: 10px 10px 10px 10px;
+    
+}
+#upperDiv{
+    box-shadow: 5px;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(250, 173, 250);
+    text-align: center;
+    width: auto;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.input{
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(31, 239, 247));
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+#result{
+    font-weight: bold;
+    background-image: linear-gradient(white, rgb(245, 245, 101));
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    padding: 5px 5px 5px 5px;
+}
+#myButton{
+    background-image: radial-gradient(rgb(14, 13, 0) , rgb(0, 190, 253));
+    color: red;
+    width:auto;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#lowerDiv{
+    color: yellow;
+    font-weight: bold;
+    background-image: linear-gradient(black, brown);
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 2px solid black;
+}
