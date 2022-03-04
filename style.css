@@ -5,7 +5,15 @@ body{
     padding: 10px 10px 10px 10px;
     
 }
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #upperDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     box-shadow: 5px;
     font-size: large;
     font-style: italic;
@@ -18,7 +26,10 @@ body{
     margin-left: 450px;
     margin-right: 450px;
 }
-
+.box-1{
+    display: flex;
+    flex-direction: row;
+}
 h1{
     font-weight: bold;
     text-align: center;
