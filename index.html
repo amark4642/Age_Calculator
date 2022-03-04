@@ -1,44 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title>Age Calculator by Amar</title>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Title</title>
+    <h1>| Age Calculator |</h1>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <div class="container">
-    <h1>Age Calculator</h1>
-    <div id="upperDiv" style="text-align: center; width: auto;">
-
-
-      <div class="box-1">
-        <label>Date of birth :</label><br>
-        <input id="input1" class="input" type="date" placeholder="dd-mm-yyyy">
-      </div>
-      <div>
-        <label>Age at the date of :</label>
-        <input id="input2" class="input" type="date">
-      </div>
-
-    </div><br>
-    <div>
-      <button id="myButton">Calculate 👉</button>
-      <section id="lowerDiv">
-        Enter your date of birth in the first box and<br>
-        press that Calculate button to see your age..
-      </section>
-    </div><br>
-    <div style="text-align: center; width: auto;">
-      <span id="result">?</span>
+    <div class="container">
+        <div class="upperBox" style="text-align: center;">
+            <div class="box">
+                <label>Date of birth :</label><br>
+                <input id="input1" class="input" type="date" placeholder="dd-mm-yyyy" required>
+            </div>
+            <div class="box box-1">
+                <label>Age at the end of :</label><br>
+                <input id="input2" class="input" type="date" required>
+            </div>
+        </div>
+        <div class="lowerBox">
+            <button id="myButton">Calculate 👉</button>
+            <div>
+                <span id="result">
+                    
+                </span>
+            </div>
+        </div>
     </div>
-  </div>
-  <script src="script.js">
-    // console.log("amar");
-  </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
