@@ -1,126 +1,67 @@
-.container{
-    display:flex;
-    flex-direction: column;
-    overflow: hidden;
-    background: radial-gradient(circle, rgb(165, 218, 219) 30%, rgb(127, 175, 238) 65%);
-    flex-wrap: nowrap;
-    justify-content:center;
-    width: auto;
-    line-height: 30px;
-    padding: 5%;
-    /* margin-left: 340px;
-    margin-right: 340px;
-    margin-top: 100px;
-    border-radius: 25px;
-    margin-top: 70px; */
-    /* height: 250;
-    max-height: fit-content;
-    min-width: 100px;
-    max-width: fit-content; */
-    
-}
-   
-@media all and (max-width: 500px)
-{
-    .upperBox{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        width: auto;
-        min-width:auto;
-        flex-wrap: wrap;
-        background-color: cyan;
-    } 
-    body{
-        background-color:whitesmoke;
-    }
-    h1{
-        font-size: 22px;
-    }
-}
-
-.upperBox{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-}
-
-input{
-    background-color: silver;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-style: italic;
-    font-size: large;
-    width: auto;
-    
-}
-input[type="date"]::-webkit-calendar-picker-indicator{
-    color: black;
-    background-color: aquamarine;
-    padding: 5px;
-    border-radius: 15px;
-}
-.box{
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 1.5%;
-    background-color: black;
-    color: white;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-style: italic;
-    font-size: medium;
-}
-.lowerBox{
-    justify-content: center;
-    width: auto;
-    
-}
-.upperBox, .lowerBox{
-    
-    margin-left:30px;
-    margin-right: 30px;
-    padding: 1%;
-    text-align: center;
-    width:auto;
-    justify-content: center;
-}
-h1{
-    color: #f1f1f1;
-    text-align: center;
-    margin-top: 50px;
-    font-style: oblique;
-    font-size: 30px;
-}
 body{
-    background-color:rgb(0, 0, 0);
-    justify-content: center;
-    padding-left: 30%;
-    padding-right: 30%;
+    background: rgb(6,66,176);
+    background: radial-gradient(circle, rgb(1, 46, 124) 17%, rgb(1, 33, 109) 66%);
+    background-repeat:round;
+    padding: 10px 10px 10px 10px;
+    
 }
-*{
-    border-radius: 40px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-#myButton{
-    border-radius: 5px;
-    background-color: black;
-    color: #f1f1f1;
-    border: 1px solid white;
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 25px;
+#upperDiv{
+    box-shadow: 5px;
+    font-size: large;
     font-style: italic;
+    font-weight: bold;
+    color: rgb(250, 173, 250);
+    text-align: center;
+    width: auto;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.input{
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(31, 239, 247));
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
 }
 #result{
-    /* background-color: black; */
-    color: #000000;
     font-weight: bold;
+    background-image: linear-gradient(white, rgb(245, 245, 101));
+    text-align: center;
     font-size: 20px;
-    padding-left: 10px;
-    padding-right:10px;
+    width: auto;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    padding: 5px 5px 5px 5px;
+}
+#myButton{
+    background-image: radial-gradient(rgb(14, 13, 0) , rgb(0, 190, 253));
+    color: red;
+    width:auto;
+    font-weight: bold;
     font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#lowerDiv{
+    color: yellow;
+    font-weight: bold;
+    background-image: linear-gradient(black, brown);
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border: 2px solid black;
 }
